@@ -1,3 +1,0 @@
-# Arch and ALIS
-
-# AA

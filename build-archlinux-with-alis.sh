@@ -176,8 +176,10 @@ echo
 	REPLACE='  ["/alis-dev/start.sh"]="0:0:755"'
 	find $buildFolder/archiso/profiledef.sh -type f -exec sed -i "/$FIND/a $REPLACE" {} \;
 
-	echo "copy nanorc"
+	echo "Copying Personal files over"
 	cp nanorc 	$buildFolder/archiso/airootfs/etc/nanorc
+	cp alsa-base.conf	$buildFolder/archiso/airootfs/etc/modprobe.d/nanorc
+	cp .bashrc	$buildFolder/archiso/airootfs/home
 
 #echo
 #echo "################################################################## "

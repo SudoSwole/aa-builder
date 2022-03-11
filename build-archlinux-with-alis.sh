@@ -27,8 +27,8 @@ echo
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 61-1"
-	buildFolder=$HOME"/AA-build"
-	outFolder=$HOME"/AA-Out"
+	buildFolder=$HOME"Desktop/AA-build"
+	outFolder=$HOME"Desktop/AA-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
@@ -172,14 +172,13 @@ echo
 	REPLACE='  ["/alis/start.sh"]="0:0:755"'
 	find $buildFolder/archiso/profiledef.sh -type f -exec sed -i "/$FIND/a $REPLACE" {} \;
 
-	FIND='livecd-sound'
-	REPLACE='  ["/alis-dev/start.sh"]="0:0:755"'
-	find $buildFolder/archiso/profiledef.sh -type f -exec sed -i "/$FIND/a $REPLACE" {} \;
+	# FIND='livecd-sound'
+	# REPLACE='  ["/alis-dev/start.sh"]="0:0:755"'
+	# find $buildFolder/archiso/profiledef.sh -type f -exec sed -i "/$FIND/a $REPLACE" {} \;
 
 	echo "Copying Personal files over"
 	cp nanorc 	$buildFolder/archiso/airootfs/etc/nanorc
-	cp alsa-base.conf	$buildFolder/archiso/airootfs/etc/modprobe.d/nanorc
-	cp .bashrc	$buildFolder/archiso/airootfs/home
+	cp alsa-base.conf	$buildFolder/archiso/airootfs/etc/modprobe.d/alsa-base.conf
 
 #echo
 #echo "################################################################## "

@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "github",
+			"path": "../../../../github"
+		},
+		{
+			"path": "../../../../systemrestore/scripts"
+		}
+	],
+	"settings": {}
+}

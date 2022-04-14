@@ -1,0 +1,115 @@
+# Generated with makepkglist.sh
+###############################
+
+# Groups:
+base-devel                      # Group: base-devel
+kde-graphics                    # Group: kde-graphics
+kde-system                      # Group: kde-system
+kde-utilities                   # Group: kde-utilities
+
+# Other packages:
+1password                       # Password manager and secure wallet
+appmenu-gtk-module              # Application Menu GTK+ Module
+archiso                         # Tools for creating Arch Linux live and install iso images
+atom                            # A hackable text editor for the 21st Century
+base                            # Minimal package set to define a basic Arch Linux installation
+bash-completion                 # Programmable completion for the bash shell
+bitwarden                       # A secure and free password manager for all of your devices
+bluez-utils                     # Development and debugging utilities for the bluetooth protocol stack
+btop                            # A monitor of system resources, bpytop ported to C++
+btrfs-progs                     # Btrfs filesystem utilities
+chaotic-keyring                 # Chaotic-AUR PGP keyring
+chaotic-mirrorlist              # Chaotic-AUR mirrorlist to use with Pacman
+conky                           # Lightweight system monitor for X
+discord                         # All-in-one voice and text chat for gamers that's free and secure.
+dosfstools                      # DOS filesystem utilities
+duf                             # Disk Usage/Free Utility
+efibootmgr                      # Linux user-space application to modify the EFI Boot Manager
+etcher-bin                      # Flash OS images to SD cards & USB drives, safely and easily (AUR)
+exfat-utils                     # Utilities for exFAT file system
+ffmpegthumbs                    # FFmpeg-based thumbnail creator for video files
+firefox                         # Standalone web browser from mozilla.org
+flatpak                         # Linux application sandboxing and distribution framework (formerly xdg-app)
+gedit                           # GNOME Text Editor
+gimp                            # GNU Image Manipulation Program
+git                             # the fast distributed version control system
+gparted                         # A Partition Magic clone, frontend to GNU Parted
+grub                            # GNU GRand Unified Bootloader (2)
+grub-btrfs                      # Include btrfs snapshots in GRUB boot options
+grub-customizer                 # A graphical grub2 settings manager
+hwinfo                          # Hardware detection tool from openSUSE
+intel-media-driver              # Intel Media Driver for VAAPI — Broadwell+ iGPUs
+intel-ucode                     # Microcode update files for Intel CPUs
+inxi                            # Full featured CLI system information tool
+kde-graphics-meta               # Meta package for KDE graphics applications
+kde-system-meta                 # Meta package for KDE system applications
+kde-utilities-meta              # Meta package for KDE utilities applications
+kmix                            # KDE volume control program
+kvantum                         # SVG-based theme engine for Qt5/6 (including config tool and extra themes)
+kwin-bismuth                    # Addon for KDE Plasma to arrange your windows automatically and switch between them using keyboard shortcuts, like tiling window managers.
+latte-dock-git                  # Latte is a dock based on plasma frameworks that provides an elegant and intuitive experience for your tasks and plasmoids
+lib32-mesa                      # An open-source implementation of the OpenGL specification (32-bit)
+lib32-vulkan-icd-loader         # Vulkan Installable Client Driver (ICD) Loader (32-bit)
+lib32-vulkan-intel              # Intel's Vulkan mesa driver (32-bit)
+libreoffice-fresh               # LibreOffice branch which contains new features and program enhancements
+linux                           # The Linux kernel and modules
+linux-firmware                  # Firmware files for Linux
+linux-headers                   # Headers and scripts for building modules for the Linux kernel
+linux-lts                       # The LTS Linux kernel and modules
+linux-lts-headers               # Headers and scripts for building modules for the LTS Linux kernel
+linux-zen                       # The Linux ZEN kernel and modules
+linux-zen-headers               # Headers and scripts for building modules for the Linux ZEN kernel
+lsb-release                     # LSB version query program
+man-db                          # A utility for reading man pages
+man-pages                       # Linux man pages
+megasync-bin                    # Easy automated syncing between your computers and your MEGA cloud drive
+meld                            # Compare files, directories and working copies
+mesa                            # An open-source implementation of the OpenGL specification
+mullvad-vpn                     # The Mullvad VPN client app for desktop (AUR)
+nano                            # Pico editor clone with enhancements
+neofetch                        # A CLI system information tool written in BASH that supports displaying images.
+neovim                          # Fork of Vim aiming to improve user experience, plugins, and GUIs
+networkmanager                  # Network connection manager and user applications
+nvidia-dkms                     # NVIDIA drivers - module sources
+nvidia-lts                      # NVIDIA drivers for linux-lts
+nvidia-settings                 # Tool for configuring the NVIDIA graphics driver
+optimus-manager                 # Management utility to handle GPU switching for Optimus laptops
+optimus-manager-qt              # A Qt interface for Optimus Manager that allows to configure and switch GPUs on Optimus laptops using the tray menu
+packagekit-qt5                  # Qt5 bindings for PackageKit
+packer                          # tool for creating identical machine images for multiple platforms from a single source configuration
+paru-bin                        # Feature packed AUR helper (AUR)
+pavucontrol                     # PulseAudio Volume Control
+pipewire-pulse                  # Low-latency audio/video router and processor - PulseAudio replacement
+pkgbrowser                      # A utility for browsing pacman databases and the AUR (AUR)
+plasma5-applets-virtual-desktop-bar-git# KDE Plasma panel applet for managing virtual desktops (AUR)
+plasma-meta                     # Meta package to install KDE Plasma
+python-pip                      # The PyPA recommended tool for installing Python packages
+reflector                       # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+rsync                           # A fast and versatile file copying tool for remote and local files
+snap-pac                        # Pacman hooks that use snapper to create pre/post btrfs snapshots like openSUSE's YaST
+snapper                         # A tool for managing BTRFS and LVM snapshots. It can create, diff and restore snapshots and provides timelined auto-snapping.
+snapper-gui-git                 # Gui for snapper, a tool of managing snapshots of Btrfs subvolumes and LVM volumes
+speedtest-cli                   # Command line interface for testing internet bandwidth using speedtest.net
+spicetify-cli-git               # Command-line tool to customize Spotify client - Git master branch
+spicetify-themes-git            # A community-driven collection of themes for spicetify
+spotify                         # A proprietary music streaming service
+sublime-text-4                  # Sophisticated text editor for code, html and prose - stable build
+terminus-font                   # Monospace bitmap font (for X11 and console)
+tree                            # A directory listing program displaying a depth indented list of files
+ttf-roboto                      # Google's signature family of fonts
+ufw                             # Uncomplicated and easy to use CLI tool for managing a netfilter firewall
+variety                         # Changes the wallpaper on a regular interval using user-specified or automatically downloaded images.
+vim                             # Vi Improved, a highly configurable, improved version of the vi text editor
+virtualbox                      # Powerful x86 virtualization for enterprise as well as home use
+virtualbox-host-dkms            # VirtualBox Host kernel modules sources
+vscodium-bin                    # Binary releases of VS Code without MS branding/telemetry/licensing. (AUR)
+vulkan-icd-loader               # Vulkan Installable Client Driver (ICD) Loader
+vulkan-intel                    # Intel's Vulkan mesa driver
+xdg-user-dirs                   # Manage user directories like ~/Desktop and ~/Music
+yarn                            # Fast, reliable, and secure dependency management
+yay-bin                         # Yet another yogurt. Pacman wrapper and AUR helper written in go. Pre-compiled. (AUR)
+ytmdesktop                      # A desktop app for YouTube Music
+zoom                            # Video Conferencing and Web Conferencing Service
+zsh                             # A very advanced and programmable command interpreter (shell) for UNIX
+zsh-completions                 # Additional completion definitions for Zsh
+zsh-syntax-highlighting         # Fish shell like syntax highlighting for Zsh

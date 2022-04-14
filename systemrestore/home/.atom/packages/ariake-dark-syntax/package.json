@@ -1,0 +1,57 @@
+{
+  "_from": "https://www.atom.io/api/packages/ariake-dark-syntax/versions/0.2.1/tarball",
+  "_id": "ariake-dark-syntax@0.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-dmhC1Mb/oCxsA8a4f9+SoT7NpjrpwkM7L2nqG/icT9UQdIhYvlZArp1JE/h+teTO9+BGXnHnzcEP/jfDn147PQ==",
+  "_location": "/ariake-dark-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/ariake-dark-syntax/versions/0.2.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/ariake-dark-syntax/versions/0.2.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/ariake-dark-syntax/versions/0.2.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/ariake-dark-syntax/versions/0.2.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/ariake-dark-syntax/versions/0.2.1/tarball",
+  "_shasum": "4b3b115d1dfa27ccad56b9ad0d37085e42461612",
+  "_spec": "https://www.atom.io/api/packages/ariake-dark-syntax/versions/0.2.1/tarball",
+  "_where": "/tmp/apm-install-dir-2022220-80872-14f0bds.o2uxi",
+  "bugs": {
+    "url": "https://github.com/pathtrk/ariake-dark-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A dark blue syntax theme inspired by Japan colors and the poetry.",
+  "engines": {
+    "atom": ">=1.13.0"
+  },
+  "homepage": "https://github.com/pathtrk/ariake-dark-syntax#readme",
+  "keywords": [
+    "dark",
+    "blue",
+    "syntax",
+    "japan"
+  ],
+  "license": "MIT",
+  "name": "ariake-dark-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pathtrk/ariake-dark-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.2.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

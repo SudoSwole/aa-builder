@@ -27,8 +27,8 @@ echo
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 61-1"
-	buildFolder=$HOME"Desktop/AA-build"
-	outFolder=$HOME"Desktop/AA-Out"
+	buildFolder=$HOME"/AA-build"
+	outFolder=$HOME"/AA-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
@@ -135,7 +135,7 @@ echo
 	echo
 	echo "Git clone ALIS"
 	mkdir $buildFolder/archiso/airootfs/alis
-	git clone https://github.com/SudoSwole/alis-arco $buildFolder/archiso/airootfs/alis
+	git clone https://github.com/SudoSwole/alis $buildFolder/archiso/airootfs/alis
 	#mkdir $buildFolder/archiso/airootfs/alis-dev
 	#git clone https://github.com/arcolinuxiso/alis-dev $buildFolder/archiso/airootfs/alis-dev
 
@@ -177,8 +177,10 @@ echo
 	# find $buildFolder/archiso/profiledef.sh -type f -exec sed -i "/$FIND/a $REPLACE" {} \;
 
 	echo "Copying Personal files over"
+	mkdir $buildFolder/archiso/airootfs/etc/systemrestore
+	cp -arf systemrestore/* 	$buildFolder/archiso/airootfs/etc/systemrestore
 	cp nanorc 	$buildFolder/archiso/airootfs/etc/nanorc
-	cp alsa-base.conf	$buildFolder/archiso/airootfs/etc/modprobe.d/alsa-base.conf
+	#cp alsa-base.conf	$buildFolder/archiso/airootfs/etc/modprobe.d/alsa-base.conf
 
 #echo
 #echo "################################################################## "

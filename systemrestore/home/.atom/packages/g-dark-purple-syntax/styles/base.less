@@ -1,0 +1,501 @@
+@import "syntax-variables";
+atom-text-editor * {
+  font-weight: 600;
+}
+atom-text-editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+
+  .wrap-guide {
+    background-color: darken(@syntax-wrap-guide-color, 10%);
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+    color: darken(@syntax-gutter-text-color-selected, 35%);
+
+    .line-number {
+      &.cursor-line {
+        background-color: @syntax-gutter-background-color-selected;
+        color: @syntax-gutter-text-color-selected;
+      }
+
+      &.cursor-line-no-selection {
+        color: @syntax-gutter-text-color-selected;
+      }
+    }
+  }
+
+  .gutter .line-number.folded,
+  .gutter .line-number:after,
+  .fold-marker:after {
+    color: @light-gray;
+  }
+
+  .invisible {
+    color: @syntax-text-color;
+  }
+
+  .cursor {
+    color: @syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+    border-radius: 4px;
+    border: 1px solid RGBA(128, 203, 196, 1.00);
+  }
+}
+
+
+// Syntax styles
+
+.syntax--comment {
+  color: lighten(@dark, 6%);
+}
+// keyword
+.syntax--keyword {
+  color: @light-pink;
+
+  &.syntax--control {
+    color: lighten(@bright-pink, 15%);
+    font-style: italic;
+  }
+
+  &.syntax--operator {
+    color: lighten(@bright-pink, 15%);
+  }
+
+  &.syntax--other.syntax--special-method {
+    color: @blue;
+  }
+
+  &.syntax--other.syntax--unit,
+  &.syntax--other,
+  &.syntax--escape {
+    color: lighten(@orange, 5%);
+  }
+}
+// storage
+.syntax--storage {
+  &.syntax--type {
+    color: lighten(@dark-red, 5%);
+  }
+  &.syntax--modifier {
+    color: lighten(@purple, 5%);
+  }
+}
+// constant
+.syntax--constant {
+  color: @pink-orange;
+
+  &.syntax--character.syntax--escape {
+    color: @cyan;
+  }
+
+  &.syntax--numeric {
+    color: @orange;
+  }
+
+  &.syntax--other.syntax--color {
+    color: @cyan;
+  }
+
+  &.syntax--other.syntax--symbol {
+    color: @green;
+  }
+  &.syntax--other.syntax--php {
+    color: @syntax-color-php-constant;
+  }
+}
+// variables
+.syntax--variable {
+  color: @variable;
+  font-weight: 600;
+
+  &.syntax--interpolation {
+    color: darken(@variable, 10%);
+  }
+
+  &.syntax--parameter.syntax--function {
+    color: darken(@variable, 10%);
+  }
+}
+
+.syntax--invalid.syntax--illegal {
+  background-color: @red;
+  color: @syntax-background-color;
+}
+
+// string
+.syntax--string {
+  color: @green;
+
+  &.syntax--quoted.syntax--docstring{
+    color: @dark;
+  }
+  &.syntax--regexp {
+    color: @dark-red-orange;
+
+    .syntax--source.syntax--ruby.syntax--embedded {
+      color: @orange;
+    }
+  }
+
+  &.syntax--other.syntax--link {
+    color: @red;
+  }
+}
+// punctuation
+.syntax--punctuation {
+  color: @green;
+  &.syntax--definition {
+    &.syntax--comment {
+      color: @dark;
+    }
+
+    &.syntax--tag {
+      color: lighten(@light-pink-2, 2%);
+    }
+
+    &.syntax--string,
+    &.syntax--variable,
+    &.syntax--parameters,
+    &.syntax--array {
+      color: darken(@green, 5%);
+    }
+
+    &.syntax--variable,
+    &.syntax--array,
+    &.syntax--variable.syntax--php {
+      color: lighten(@php-dollar, 1%);
+    }
+
+    &.syntax--heading,
+    &.syntax--identity {
+      color: @blue;
+    }
+
+    &.syntax--bold {
+      color: @light-orange;
+      font-weight: bold;
+    }
+
+    &.syntax--italic {
+      color: @purple;
+      font-style: italic;
+    }
+  }
+
+  &.syntax--section.syntax--embedded {
+    color: darken(@green, 10%);
+  }
+
+  &.syntax--separator.syntax--inheritance.syntax--php {
+    color: @light-pink;
+  }
+
+}
+
+// supports/Class
+.syntax--support {
+  &.syntax--class {
+    color: @dark-orange;
+    font-weight: 600;
+  }
+
+  &.syntax--other {
+    font-weight: 600;
+    color: @light-dark-yellow;
+    &.syntax--use.syntax--php,
+    &.syntax--php {
+      color: @light-dark-yellow;
+    }
+  }
+
+  &.syntax--function  {
+    color: @blue;
+
+    &.syntax--any-method {
+      color: @blue;
+    }
+  }
+
+  &.syntax--entity {
+    color: @light-pink;
+  }
+  &.syntax--type.syntax--property-name.syntax--css {
+    color: #96ceb4;
+  }
+}
+
+// entity
+.syntax--entity {
+  &.syntax--name.syntax--function {
+    color: @cyan;
+    font-weight: 600;
+  }
+  &.syntax--name.syntax--type {
+    color: @light-orange;
+    // text-decoration: underline;
+  }
+  &.syntax--name.syntax--tag {
+    color: lighten(@dark-pink, 5%);
+    font-weight: 600;
+  }
+
+  &.syntax--other.syntax--inherited-class {
+    color: @green;
+    font-weight: 600;
+  }
+  &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
+    color: @light-orange;
+    font-weight: 600;
+  }
+
+  &.syntax--name.syntax--section {
+    color: @blue;
+  }
+
+  &.syntax--name.syntax--tag {
+    color: lighten(@dark-pink, 5%);
+    font-weight: 600;
+  }
+
+  &.syntax--other.syntax--attribute-name {
+    color: @light-dark-yellow;
+
+    &.syntax--id {
+      color: @blue;
+    }
+  }
+}
+
+// meta
+.syntax--meta {
+  &.syntax--class {
+    color: @light-orange;
+    font-weight: 600;
+  }
+
+  &.syntax--tag.syntax--doctype.syntax--html {
+    color: lighten(@dark-pink, 5%);
+    font-weight: 600;
+  }
+
+  &.syntax--link {
+    color: @orange;
+  }
+
+  &.syntax--require {
+    color: @blue;
+  }
+
+  &.syntax--selector {
+    color: @purple;
+  }
+
+  &.syntax--separator {
+    background-color: @gray;
+    color: @syntax-text-color;
+  }
+  &.syntax--function-call {
+    color: @blue;
+  }
+}
+
+.syntax--none {
+  color: @syntax-text-color;
+}
+
+// markup
+.syntax--markup {
+  &.syntax--bold {
+    color: @orange;
+    font-weight: bold;
+  }
+
+  &.syntax--changed {
+    color: @purple;
+  }
+
+  &.syntax--deleted {
+    color: @red;
+  }
+
+  &.syntax--italic {
+    color: @purple;
+    font-style: italic;
+  }
+
+  &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+    color: @blue;
+  }
+
+  &.syntax--inserted {
+    color: @green;
+  }
+
+  &.syntax--list {
+    color: @red;
+  }
+
+  &.syntax--quote {
+    color: @orange;
+  }
+
+  &.syntax--raw.syntax--inline {
+    color: @green;
+  }
+}
+
+.syntax--source.syntax--gfm .syntax--markup {
+  -webkit-font-smoothing: auto;
+  &.syntax--heading {
+    color: @green;
+  }
+}
+
+.syntax--source.syntax--python {
+  .syntax--entity {
+    &.syntax--name {
+      &.syntax--function {
+        color: @cyan;
+        &.syntax--decorator {
+          color: lighten(@blue-wale-secondary, 5%);
+        }
+      }
+    }
+  }
+
+  .syntax--string.syntax--quoted {
+    color: @dark;
+  }
+}
+
+// Mini editor
+
+atom-text-editor[mini] .scroll-view {
+  padding-left: 1px;
+}
+// JSON
+.syntax--source.syntax--json {
+  .syntax--meta {
+    &.syntax--structure {
+      &.syntax--dictionary.syntax--json {
+        font-weight: bold;
+        .syntax--dictionary.syntax--key.syntax--json {
+          color: lighten(@purple, 3%);
+        }
+        .syntax--meta {
+          &.syntax--structure {
+            &.syntax--dictionary.syntax--json {
+              .syntax--dictionary.syntax--key.syntax--json {
+                color: lighten(@light-orange, 10%);
+              }
+              .syntax--meta {
+                &.syntax--structure {
+                  &.syntax--dictionary.syntax--json {
+                    .syntax--dictionary.syntax--key.syntax--json {
+                      color: lighten(@json-level-2, 5%);
+                    }
+                    .syntax--meta {
+                      &.syntax--structure {
+                        &.syntax--dictionary.syntax--json {
+                          .syntax--dictionary.syntax--key.syntax--json {
+                            color: lighten(@json-level-3, 5%);
+                          }
+                          .syntax--meta {
+                            &.syntax--structure {
+                              &.syntax--dictionary.syntax--json {
+                                .syntax--dictionary.syntax--key.syntax--json {
+                                  color: lighten(@json-level-4, 15%);
+                                }
+                                .syntax--meta {
+                                  &.syntax--structure {
+                                    &.syntax--dictionary.syntax--json {
+                                      .syntax--dictionary.syntax--key.syntax--json {
+                                        color: lighten(@json-level-5, 5%);
+                                      }
+                                      .syntax--meta {
+                                        &.syntax--structure {
+                                          &.syntax--dictionary.syntax--json {
+                                            .syntax--dictionary.syntax--key.syntax--json {
+                                              color: lighten(@json-level-6, 5%);
+                                            }
+                                            .syntax--meta {
+                                              &.syntax--structure {
+                                                &.syntax--dictionary.syntax--json {
+                                                  .syntax--dictionary.syntax--key.syntax--json {
+                                                    color: lighten(@json-level-7, 5%);
+                                                  }
+                                                  .syntax--meta {
+                                                    &.syntax--structure {
+                                                      &.syntax--dictionary.syntax--json {
+                                                        .syntax--dictionary.syntax--key.syntax--json {
+                                                          color: lighten(@json-level-8, 5%);
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.syntax--punctuation.syntax--separator.syntax--dictionary.syntax--key-value {
+  color: whitesmoke;
+}
+
+// MARKDOWN
+.syntax--source.syntax--gfm {
+  color: @json-level-5;
+  .syntax--markup {
+    &.syntax--italic {
+      color: @md-italic;
+    }
+    &.syntax--underline.syntax--link {
+      color: @md-link;
+      &.syntax--https.syntax--hyperlink {
+        color: @green;
+      }
+    }
+    &.syntax--heading {
+      color: @md-heading;
+      &.syntax--marker {
+        color: @md-heading-marker;
+      }
+    }
+    &.syntax--raw {
+      color: lighten(@md-raw, 10%);
+    }
+  }
+}

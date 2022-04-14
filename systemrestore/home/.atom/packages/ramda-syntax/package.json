@@ -1,0 +1,58 @@
+{
+  "_from": "https://www.atom.io/api/packages/ramda-syntax/versions/1.0.4/tarball",
+  "_id": "ramda-syntax@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-Sgbwyo2fcnUhHIOwd37QsiHtwa+oX2H6ZF93phHfZ9ph4IWiRyWGBvCsVgx992ty+bqwUtLJMEHM19gY/eHjpA==",
+  "_location": "/ramda-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/ramda-syntax/versions/1.0.4/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/ramda-syntax/versions/1.0.4/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/ramda-syntax/versions/1.0.4/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/ramda-syntax/versions/1.0.4/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/ramda-syntax/versions/1.0.4/tarball",
+  "_shasum": "0a955e9eafcebe40b9b93298effcc4f2ec5c0d29",
+  "_spec": "https://www.atom.io/api/packages/ramda-syntax/versions/1.0.4/tarball",
+  "_where": "/tmp/apm-install-dir-2022220-38011-1qt007t.v3ns",
+  "bugs": {
+    "url": "https://github.com/juliancoleman/ramda-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A syntax theme based on the RamdaJS REPL",
+  "engines": {
+    "atom": ">=1.13 <=2.0.0"
+  },
+  "homepage": "https://github.com/juliancoleman/ramda-syntax#readme",
+  "keywords": [
+    "dracula",
+    "codemirror",
+    "ramda",
+    "repl",
+    "sheep"
+  ],
+  "license": "MIT",
+  "name": "ramda-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliancoleman/ramda-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.4",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

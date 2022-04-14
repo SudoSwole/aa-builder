@@ -1,0 +1,130 @@
+
+// Lists
+// -------------------
+
+// Used in different places, like the Tree View, Commmand Palette etc.
+// Overrides: atom/static/lists.less
+
+// List Group -------------------
+.list-group {
+  li {
+    padding-left: @component-padding/2;
+
+    // We want to highlight the background of the list items because we dont know their size.
+    &.selected {
+
+      color: @text-color-selected;
+      background-color: @background-color-selected;
+      &:before{ display: none; }
+    }
+  }
+}
+
+
+// List Tree -------------------
+.list-tree {
+  color: @text-color;
+  .selected {
+    color: @text-color-selected;
+  }
+  .list-item:hover {
+    background-color: darken(@base-background-color, 5%);
+  }
+}
+
+
+// Select List -------------------
+.select-list {
+  li {
+    padding: @component-padding/2 @component-padding;
+  }
+  .status {
+    float: right;
+  }
+  ol.list-group li {
+    border-radius: 4px;
+  }
+}
+
+
+// Popover List -------------------
+// Used as a popover for something like autocomplete.
+.select-list.popover-list {
+  @popover-list-padding: @component-padding/2;
+
+  padding: @popover-list-padding;
+  border-radius: @component-border-radius;
+  background-color: @overlay-background-color;
+  box-shadow: 0 2px 8px 1px hsla(0,0%,0%,.3);
+
+  .list-group {
+    margin-top: @popover-list-padding;
+    li {
+      padding-left: @popover-list-padding;
+    }
+  }
+}
+
+.suggestion {
+  &-list-scroller {
+    .character-match {
+      color: lighten(@text-color, 5%);
+      font-weight: 900;
+    }
+  }
+}
+.autocomplete-suggestion-list {
+  .icon-letter {
+    color: @text-color;
+    background-color: @base-background-color;
+  }
+  .icon.move-right,
+  .icon.snippet {
+    color: green;
+  }
+  &.select-list.popover-list ol.list-group li {
+    .word{
+        color: darken(@text-color, 5%);
+    }
+    &.selected {
+      .word{
+         color: darken(@text-color-selected, 15%);
+       }
+     .character-match {
+        color: darken(@text-color-selected, 5%);
+      }
+      .right-label {
+        color: darken(@text-color, 5%);
+      }
+    }
+  }
+  &.select-list.popover-list .suggestion-description {
+    background-color: lighten(@base-background-color, 10%);
+    color: lighten(@text-color, 40%);
+  }
+}
+
+.structure-view {
+  .vertical-menu a:hover, .vertical-menu label:hover {
+    background-color: darken(@base-background-color, 5%);
+  }
+}
+
+.command-palette {
+  .list-group {
+    .character-match {
+      color: @text-color;
+      font-weight: bold;
+    }
+  }
+}
+
+.key-binding {
+    display: inline-block;
+    margin-left: 1px;
+    padding: 0 5px;
+    border-radius: 4px;
+    color: lighten(@text-color, 5%);
+    font-weight: 700;
+    background-color: @background-color-selected;
+}

@@ -1,0 +1,12 @@
+[2022-04-05 04:20:32.526] [exthost] [info] Extension host with pid 13022 started
+[2022-04-05 04:20:32.527] [exthost] [info] Skipping acquiring lock for /home/mxviii/.config/VSCodium/User/workspaceStorage/4208bed1312db25cbe4593dd8782b7d2.
+[2022-04-05 04:20:32.870] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-05 04:20:32.880] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-05 04:20:32.886] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-05 04:20:33.212] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-05 04:20:33.312] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-05 04:20:33.372] [exthost] [info] Eager extensions activated
+[2022-04-05 04:20:33.384] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 04:20:33.408] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-05 14:28:05.466] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-05 14:28:05.479] [exthost] [info] Extension host with pid 13022 exiting with code 0

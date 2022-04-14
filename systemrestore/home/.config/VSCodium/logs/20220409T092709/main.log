@@ -1,0 +1,22 @@
+[2022-04-09 09:27:09.787] [main] [info] window#load: attempt to load window (id: 1)
+[2022-04-09 09:27:09.805] [main] [info] update#setState idle
+[2022-04-09 09:27:09.862] [main] [info] ExtensionHostStarterWorker created
+[2022-04-09 09:27:11.051] [main] [info] window#load: window reported ready (id: 1)
+[2022-04-09 09:27:11.254] [main] [info] Starting extension host with pid 26324 (fork() took 7 ms).
+[2022-04-09 09:27:11.254] [main] [info] ExtensionHostStarterWorker.start() took 9 ms.
+[2022-04-09 09:27:39.809] [main] [info] update#setState checking for updates
+[2022-04-09 09:27:39.980] [main] [info] update#setState idle
+[2022-04-09 10:27:39.852] [main] [info] update#setState checking for updates
+[2022-04-09 10:27:41.445] [main] [info] update#setState idle
+[2022-04-09 11:27:39.934] [main] [info] update#setState checking for updates
+[2022-04-09 11:27:41.481] [main] [info] update#setState idle
+[2022-04-09 12:27:40.036] [main] [info] update#setState checking for updates
+[2022-04-09 12:27:41.522] [main] [info] update#setState idle
+[2022-04-09 13:27:40.110] [main] [info] update#setState checking for updates
+[2022-04-09 13:27:45.738] [main] [info] update#setState idle
+[2022-04-09 14:27:40.212] [main] [info] update#setState checking for updates
+[2022-04-09 14:27:42.136] [main] [info] update#setState idle
+[2022-04-09 15:27:40.313] [main] [info] update#setState checking for updates
+[2022-04-09 15:27:41.863] [main] [info] update#setState idle
+[2022-04-09 16:27:40.394] [main] [info] update#setState checking for updates
+[2022-04-09 16:27:41.989] [main] [info] update#setState idle

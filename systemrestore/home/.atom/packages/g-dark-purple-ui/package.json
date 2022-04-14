@@ -1,0 +1,58 @@
+{
+  "_from": "https://www.atom.io/api/packages/g-dark-purple-ui/versions/0.3.0/tarball",
+  "_id": "g-dark-purple-ui@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-/tBX+ergIiWSgaoaLQjPxsR+UVdaMZothat+3RIXhU0WQKhrXYpznKvY4p7YehundwOtQq1X0j6J/r3zBLcuOA==",
+  "_location": "/g-dark-purple-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/g-dark-purple-ui/versions/0.3.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/g-dark-purple-ui/versions/0.3.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/g-dark-purple-ui/versions/0.3.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/g-dark-purple-ui/versions/0.3.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/g-dark-purple-ui/versions/0.3.0/tarball",
+  "_shasum": "53e499f353b0da842d26b9d48cb89cc4ad170825",
+  "_spec": "https://www.atom.io/api/packages/g-dark-purple-ui/versions/0.3.0/tarball",
+  "_where": "/tmp/apm-install-dir-2022220-91474-df37qn.pdg8t",
+  "bugs": {
+    "url": "https://github.com/stoneC0der/atom-g-dark-purple-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "UI for G-dark-purple-syntax-theme",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/stoneC0der/atom-g-dark-purple-ui#readme",
+  "keywords": [
+    "ui",
+    "theme",
+    "g-dark-purple-syntax",
+    "g-dark",
+    "purple"
+  ],
+  "license": "MIT",
+  "name": "g-dark-purple-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoneC0der/atom-g-dark-purple-ui.git"
+  },
+  "theme": "ui",
+  "version": "0.3.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

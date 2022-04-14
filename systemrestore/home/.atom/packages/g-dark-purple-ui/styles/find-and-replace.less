@@ -1,0 +1,21 @@
+
+// Find + Replace
+// -------------------
+
+// Find and replace in the current buffer or across the entire project.
+// Overrides: atom/find-and-replace
+
+.find-and-replace,
+.project-find {
+  border-top: 1px solid lighten(@base-background-color, 5%);
+  background-color: @base-background-color;
+  color: @text-color;
+}
+
+.header-item.options-label.pull-right {
+  color: @text-color;
+}
+
+.find-and-replace .options-label .options, .preview-pane .options-label .options, .project-find .options-label .options {
+  color: darken(@text-color, 10%);
+}

@@ -1,0 +1,9 @@
+[2022-04-05 04:20:32.722] [sharedprocess] [info] Starting worker process with pid 13081 (type: fileWatcher, window: 1).
+[2022-04-05 04:20:34.886] [sharedprocess] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-04-05 04:20:35.746] [sharedprocess] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-04-05 04:20:36.404] [sharedprocess] [info] Downloaded extension: ms-vscode.js-debug-companion /home/mxviii/.config/VSCodium/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.17
+[2022-04-05 04:20:36.446] [sharedprocess] [info] Extracted extension to /home/mxviii/.vscode-oss/extensions/.35be5241-5bcb-4ca2-add9-aec4967fa6f0: ms-vscode.js-debug-companion
+[2022-04-05 04:20:36.448] [sharedprocess] [info] Renamed to /home/mxviii/.vscode-oss/extensions/ms-vscode.js-debug-companion-1.0.17
+[2022-04-05 04:20:36.450] [sharedprocess] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-04-05 04:20:36.452] [sharedprocess] [info] Extension installed successfully: ms-vscode.js-debug-companion
+[2022-04-05 14:26:14.528] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

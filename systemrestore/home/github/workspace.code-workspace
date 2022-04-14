@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../systemrestore/scripts"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

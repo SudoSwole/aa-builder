@@ -1,0 +1,11 @@
+[2022-04-08 04:58:28.980] [exthost] [info] Extension host with pid 58514 started
+[2022-04-08 04:58:28.981] [exthost] [info] Skipping acquiring lock for /home/mxviii/.config/VSCodium/User/workspaceStorage/4208bed1312db25cbe4593dd8782b7d2.
+[2022-04-08 04:58:29.179] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-08 04:58:29.187] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-08 04:58:29.194] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-08 04:58:29.256] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-08 04:58:29.288] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-08 04:58:29.414] [exthost] [info] Eager extensions activated
+[2022-04-08 04:58:29.840] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-08 04:58:29.849] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-08 05:12:55.360] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

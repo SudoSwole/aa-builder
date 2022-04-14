@@ -1,0 +1,11 @@
+[2022-04-05 14:28:10.821] [sharedprocess] [info] Starting worker process with pid 62917 (type: fileWatcher, window: 1).
+[2022-04-05 14:28:12.776] [sharedprocess] [info] Getting Manifest... ms-vscode.references-view
+[2022-04-05 14:28:13.931] [sharedprocess] [info] Installing extension: ms-vscode.references-view
+[2022-04-05 14:28:14.782] [sharedprocess] [info] Downloaded extension: ms-vscode.references-view /home/mxviii/.config/VSCodium/CachedExtensionVSIXs/ms-vscode.references-view-0.0.89
+[2022-04-05 14:28:14.832] [sharedprocess] [info] Extracted extension to /home/mxviii/.vscode-oss/extensions/.ffabf181-9d1c-430a-8312-512376f90801: ms-vscode.references-view
+[2022-04-05 14:28:14.834] [sharedprocess] [info] Renamed to /home/mxviii/.vscode-oss/extensions/ms-vscode.references-view-0.0.89
+[2022-04-05 14:28:14.835] [sharedprocess] [info] Extracting completed. ms-vscode.references-view
+[2022-04-05 14:28:14.839] [sharedprocess] [info] Extension installed successfully: ms-vscode.references-view
+[2022-04-05 18:37:25.678] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-04-05 18:59:49.581] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-04-05 19:09:58.329] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

@@ -1,0 +1,172 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
+
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025000000000000001
+ColorEffect=2
+ContrastAmount=0.10000000000000001
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=29,33,47
+BackgroundNormal=29,33,47
+DecorationFocus=74,103,136
+DecorationHover=85,117,156
+ForegroundActive=68,137,206
+ForegroundInactive=192,201,232
+ForegroundLink=65,129,194
+ForegroundNegative=191,97,106
+ForegroundNeutral=58,129,179
+ForegroundNormal=214,219,241
+ForegroundPositive=0,106,128
+ForegroundVisited=0,106,128
+
+[Colors:Complementary]
+BackgroundAlternate=29,33,47
+BackgroundNormal=29,33,47
+DecorationFocus=72,83,116
+DecorationHover=64,74,103
+ForegroundActive=68,137,206
+ForegroundInactive=180,188,218
+ForegroundLink=65,129,194
+ForegroundNegative=191,97,106
+ForegroundNeutral=78,122,179
+ForegroundNormal=214,219,241
+ForegroundPositive=0,106,128
+ForegroundVisited=0,106,128
+
+[Colors:Header]
+BackgroundAlternate=29,33,47
+ForegroundActive=68,137,206
+ForegroundInactive=179,187,216
+ForegroundNormal=214,219,241
+
+[Colors:Selection]
+BackgroundAlternate=29,153,243
+BackgroundNormal=71,99,130
+DecorationFocus=74,103,136
+DecorationHover=85,117,156
+ForegroundActive=192,199,231
+ForegroundInactive=214,219,241
+ForegroundLink=65,129,194
+ForegroundNegative=191,97,106
+ForegroundNeutral=58,129,179
+ForegroundNormal=214,219,241
+ForegroundPositive=0,106,128
+ForegroundVisited=0,106,128
+
+[Colors:Tooltip]
+BackgroundAlternate=29,33,47
+BackgroundNormal=29,33,47
+DecorationFocus=74,103,136
+DecorationHover=85,117,156
+ForegroundActive=68,137,206
+ForegroundInactive=180,188,218
+ForegroundLink=65,129,194
+ForegroundNegative=191,97,106
+ForegroundNeutral=58,129,179
+ForegroundNormal=214,219,241
+ForegroundPositive=0,106,128
+ForegroundVisited=0,106,128
+
+[Colors:View]
+BackgroundAlternate=29,33,47
+BackgroundNormal=24,28,39
+DecorationFocus=74,103,136
+DecorationHover=85,117,156
+ForegroundActive=68,137,206
+ForegroundInactive=180,188,218
+ForegroundLink=65,129,194
+ForegroundNegative=191,97,106
+ForegroundNeutral=58,129,179
+ForegroundNormal=214,219,241
+ForegroundPositive=0,106,128
+ForegroundVisited=0,106,128
+
+[Colors:Window]
+BackgroundAlternate=29,33,47
+BackgroundNormal=29,33,47
+DecorationFocus=74,103,136
+DecorationHover=85,117,156
+ForegroundActive=68,137,206
+ForegroundInactive=180,188,218
+ForegroundLink=65,129,194
+ForegroundNegative=191,97,106
+ForegroundNeutral=58,129,179
+ForegroundNormal=214,219,241
+ForegroundPositive=0,106,128
+ForegroundVisited=0,106,128
+
+[DirSelect Dialog]
+DirSelectDialog Size=824,568
+History Items[$e]=file:///run/media/mxviii/Arch
+
+[General]
+BrowserApplication=firefox.desktop
+ColorSchemeHash=e7edd69a8636c2a7f350c9cd8d22cf2d0ab22510
+XftHintStyle=hintslight
+XftSubPixel=rgb
+font=Roboto,10,-1,5,50,0,0,0,0,0
+menuFont=Roboto,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Roboto,8,-1,5,50,0,0,0,0,0
+toolBarFont=Roboto,10,-1,5,50,0,0,0,0,0
+
+[Icons]
+Theme=dracula-icons-main
+
+[KDE]
+LookAndFeelPackage=Desert-Global
+ShowDeleteCommand=false
+SingleClick=false
+widgetStyle=Breeze
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=false
+Show Preview=false
+Show Speedbar=true
+Show hidden files=true
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+Speedbar Width=175
+View Style=Simple
+
+[KScreen]
+ScaleFactor=1.25
+ScreenScaleFactors=eDP-1=1.25;DP-1=1.25;HDMI-1=1.25;DP-2=1.25;HDMI-2=1.25;DP-1-3=1.25;DP-1-4=1.25;
+
+[PreviewSettings]
+MaximumRemoteSize=0
+
+[WM]
+activeBackground=29,33,47
+activeBlend=29,33,47
+activeFont=Roboto,10,-1,5,50,0,0,0,0,0
+activeForeground=214,219,241
+inactiveBackground=29,33,47
+inactiveBlend=29,33,47
+inactiveForeground=192,197,217

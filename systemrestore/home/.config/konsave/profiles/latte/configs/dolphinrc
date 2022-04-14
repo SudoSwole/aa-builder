@@ -1,0 +1,62 @@
+MenuBar=Disabled
+
+[CompactMode]
+FontWeight=50
+
+[ContextMenu]
+ShowCopyMoveMenu=true
+
+[CreateDialog]
+LastMimeType=application/x-compressed-tar
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+EditableUrl=true
+RememberOpenedTabs=false
+ShowFullPath=true
+SplitView=true
+UseTabForSwitchingSplitView=true
+Version=201
+ViewPropsTimestamp=2022,3,8,21,53,46.533
+
+[IconsMode]
+FontWeight=50
+IconSize=48
+
+[KPropertiesDialog]
+eDP-1 Height 2048x1152=522
+eDP-1 Width 2048x1152=455
+eDP-1-1 Height 2560x1440=512
+eDP-1-1 Width 2560x1440=508
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+eDP-1 Height 2048x1152=498
+eDP-1 Width 2048x1152=1015
+eDP-1 Window-Maximized 2560x1440=true
+eDP-1 XPosition 2048x1152=1027
+eDP-1 YPosition 2048x1152=61
+eDP-1-1 Height 2560x1440=1154
+eDP-1-1 Width 2560x1440=1779
+eDP-1-1 XPosition 2560x1440=201
+eDP-1-1 YPosition 2560x1440=93
+
+[Open-with settings]
+CompletionMode=1
+History=sub,subl
+
+[PlacesPanel]
+IconSize=32
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs,webarchivethumbnail
+
+[Search]
+Location=Everywhere
+
+[ViewPropertiesDialog]
+eDP-1 Height 2048x1152=334
+eDP-1 Width 2048x1152=375

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Exec=/home/mxviii/.bin/conky-startup
-Icon=dialog-scripts
-Name=conky-startup
-Path=
-Type=Application
-X-KDE-AutostartScript=true

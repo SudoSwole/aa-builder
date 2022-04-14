@@ -189,8 +189,6 @@ echo
 	# REPLACE='  ["/alis-dev/start.sh"]="0:0:755"'
 	# find $buildFolder/archiso/profiledef.sh -type f -exec sed -i "/$FIND/a $REPLACE" {} \;
 
-	mkdir $buildFolder/archiso/airootfs/etc/skel/systemrestore
-	cp -arf systemrestore/* $buildFolder/archiso/airootfs/etc/skel/systemrestore
 	# echo "copy nanorc"
 	# cp nanorc 	$buildFolder/archiso/airootfs/etc/nanorc
 

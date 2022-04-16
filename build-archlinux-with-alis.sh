@@ -27,8 +27,13 @@ echo
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 61-1"
+<<<<<<< HEAD
 	buildFolder=$HOME"/AA-build"
 	outFolder=$HOME"/AA-Out"
+=======
+	buildFolder=$HOME"Desktop/Alis-build"
+	outFolder=$HOME"Desktop/Alis-Out"
+>>>>>>> 859ee9ce65eca81d50d62a15202028ee610d5764
 	archisoVersion=$(sudo pacman -Q archiso)
 
 	echo "################################################################## "
